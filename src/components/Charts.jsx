@@ -1,7 +1,9 @@
 import React from "react";
 import Chart from "./Chart";
 
+// Curly braces imply deconstructing props 
 const Charts = ({ coinData }) => {
+  
   return (
     <div className="charts">
       {coinData.map(coin => (
