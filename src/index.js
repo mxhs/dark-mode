@@ -8,7 +8,8 @@ import Navbar from "./components/Navbar";
 import "./styles.scss";
 
 const App = () => {
-  const [coinData, setCoinData] = useState([]);
+  // * coinData is a state, setCoinData sets the state of coindata. setCoinData is the function or method.
+  const [coinData, setCoinData] = useState([]); 
   
   const handleDarkMode = (setDarkMode) => {
     // const [darkMode, setDarkMode] = useState(false); 
